@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <link rel="stylesheet" href="packages/swiper-bundle.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="hide()">×</a>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="laptop-2.jpg" alt="">
+          <span>SOME TEXT HERE</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="laptop-2.jpg" alt="">
+          <span>SOME TEXT HERE</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="laptop-3.jpg" alt="">
+          <span>SOME TEXT HERE</span>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+  </div>
+  <div id="content">
+    <button class="openbtn" id="openbtn" onclick="show()">☰</button>
+    <h2>Collapsed Sideber</h2>
+    <p>
+      Click on the menu/bar icon to open the sidebar, and it will automatically push this content to the right.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit fuga accusamus quo placeat cumque
+      iusto. Molestias soluta numquam, dolore debitis consequuntur, magni expedita repellendus amet, eaque
+      exercitationem adipisci. Enim.
+    </p>
+  </div>
+
+
+  <script src="packages/swiper-bundle.js"></script>
+  <script src="app.js">
+
+  </script>
+</body>
+
+</html>
