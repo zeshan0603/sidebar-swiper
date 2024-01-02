@@ -76,7 +76,7 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   padding: 25px;
   padding-top: 60px;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 #content {
-  transition: margin-left 0.5s;
+  transition: margin-left 0.3s;
   padding: 16px;
   padding-left: 30px;
   margin-left: 32%;
