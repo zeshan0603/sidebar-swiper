@@ -12,16 +12,19 @@ var swiper = new Swiper(".mySwiper", {
   },
   loop: true
 });
+
+const sideBar = document.getElementById("mySidebar");
+const community = document.getElementById("content");
+const openBtn = document.getElementById("openbtn");
 function show() {
-  document.getElementById("mySidebar").style.width = "30%";
-  document.getElementById("mySidebar").style.paddingLeft = "25px";
-  document.getElementById("mySidebar").style.paddingRight = "25px";
-  document.getElementById("content").style.marginLeft = "32%";
+  sideBar.classList.toggle("closed");
+  community.classList.toggle("active");
+  openBtn.style.opacity = "0";
 }
 
 function hide() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("mySidebar").style.paddingLeft = "0";
-  document.getElementById("mySidebar").style.paddingRight = "0";
-  document.getElementById("content").style.marginLeft = "0";
+  sideBar.classList.toggle("closed");
+  community.classList.toggle("active");
+  openBtn.style.opacity = "1";
+
 }
